@@ -9,10 +9,10 @@ from tweepy import OAuthHandler
 
 class TwitterClient(object):
     def __init__(self):
-        consumer_key = 'iefr9keaerdkn1HPb3mSYjb3u'
-        consumer_secret = 'ZQPHWNKUtgio3rdXwKyythVvHhtalqAqIKeA98cREfHgnbUYH9'
-        access_token = '1121819847896305664-oPAoN2V0sndMSQkUSbOSEQeMSFnWox'
-        access_token_secret = '04RGa7kvbtMUPqnuUFAefY6CsosQvZ9zXphZIz0TJDEgW'
+        consumer_key = 'x'
+        consumer_secret = 'x'
+        access_token = x
+        access_token_secret =x
         try:
             # create OAuthHandler object
             self.auth = OAuthHandler(consumer_key, consumer_secret)
