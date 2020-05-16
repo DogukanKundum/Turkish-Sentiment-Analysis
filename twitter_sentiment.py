@@ -2,7 +2,7 @@ import re
 
 import jpype
 import pandas as pd
-import tweepy
+import tensorflow as tf
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
